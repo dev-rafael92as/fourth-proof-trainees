@@ -93,7 +93,7 @@ export const Container = styled.div`
         gap: 24px;
 
         @media (max-width: 40rem) {
-            flex-direction: column;
+            flex-direction: column-reverse;
             gap: 8px;
         }
     }

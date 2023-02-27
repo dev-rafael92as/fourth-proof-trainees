@@ -9,7 +9,7 @@ import { RxHamburgerMenu } from 'react-icons/rx'
 
 export const Header = () => {
     const { productsCart, setMiniCartIsOpen, miniCartIsOpen } = useRegionalization()
-    console.log(miniCartIsOpen)
+    
   return (
     <Container>
         <div className='container-header'>

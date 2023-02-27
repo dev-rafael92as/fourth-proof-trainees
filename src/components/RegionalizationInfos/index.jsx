@@ -29,6 +29,9 @@ export const RegionalizationInfos = () => {
     const storePostalCode = dataInfosStore?.storeRegionalization.postalCode
     const storeWorkDays = dataInfosStore?.storeRegionalization.hour
     const storePhone = dataInfosStore?.storeRegionalization.phone
+    const storeCellPhone = dataInfosStore?.storeRegionalization.celphone
+
+    console.log(storeCellPhone, dataInfosStore)
 
   return (
     <Container>
@@ -40,7 +43,7 @@ export const RegionalizationInfos = () => {
                 </div>
                 <div className='wrapper-lastInfos'>
                     <p><HiOutlineClock/> {storeWorkDays}</p>
-                    <p><HiOutlinePhone /> {storePhone}</p>
+                    <p><HiOutlinePhone /> {storePhone} | {storeCellPhone}</p>
                 </div>
             </div>
 
