@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    border: 1.5px solid ${({ theme }) => theme.FONTS.LIGHT_OUTLINE};
-    border-radius: 8px;
-    height: 48px;
+    border: 0.0938rem solid ${({ theme }) => theme.FONTS.LIGHT_OUTLINE};
+    border-radius: 0.5rem;
+    height: 3rem;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
 
     input {
         border: none;
@@ -19,8 +19,8 @@ export const Container = styled.div`
 
     input::placeholder {
         font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
         color: ${({ theme }) => theme.FONTS.PLACEHOLDER_COLOR};
     }
 `

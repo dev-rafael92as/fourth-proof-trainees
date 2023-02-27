@@ -3,24 +3,24 @@ import styled from "styled-components";
 export const Container = styled.div`
     main {
         width: 100%;
-        max-width: 1376px;
-        margin: 52px auto 0;
+        max-width: 86rem;
+        margin: 3.25rem auto 0;
 
         @media (max-width:40rem) {
-            padding: 0 16px;
-            margin-top: 40px;
+            padding: 0 1rem;
+            margin-top: 2.5rem;
         }
 
         h2 {
             font-weight: 500;
-            font-size: 28px;
-            line-height: 36px;
-            margin-bottom: 32px;
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+            margin-bottom: 2rem;
 
             @media (max-width:40rem) {
                 font-weight: 500;
-                font-size: 24px;
-                line-height: 32px;
+                font-size: 1.5rem;
+                line-height: 2rem;
             }
         }
     }

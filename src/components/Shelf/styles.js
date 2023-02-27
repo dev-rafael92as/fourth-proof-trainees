@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 24px;
+    padding: 1.5rem;
     background-color: ${({ theme }) => theme.FONTS.WHITE_BACKGROUND};
-    border: 3px solid ${({ theme }) => theme.FONTS.WHITE_BACKGROUND};
+    border: 0.1875rem solid ${({ theme }) => theme.FONTS.WHITE_BACKGROUND};
     width: 100%;
-    max-width: 400px;
-    border-radius: 16px;
+    max-width: 25rem;
+    border-radius: 1rem;
     position: relative;
 
     display: flex;
@@ -14,23 +14,23 @@ export const Container = styled.div`
 
     :hover {
         filter: initial;
-        border: 3px solid ${({ theme }) => theme.FONTS.TEXT_COLOR};
+        border: 0.1875rem solid ${({ theme }) => theme.FONTS.TEXT_COLOR};
         transition: all ease-in-out .3s;
     }
 
     h3 {
         font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        height: 40px;
-        margin-top: 24px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        height: 2.5rem;
+        margin-top: 1.5rem;
     }
 
     .price {
         font-weight: 600;
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: -0.1px;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        letter-spacing: -0.0063rem;
         text-decoration-line: line-through;
 
         color: ${({ theme }) => theme.FONTS.INFO_PRODUCT};
@@ -38,35 +38,35 @@ export const Container = styled.div`
 
     .sellingPrice {
         font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
         width: 100%;
         
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 0.75rem;
     }
 
     .payment-info {
         font-weight: 500;
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: -0.1px;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        letter-spacing: -0.0063rem;
         color: ${({ theme }) => theme.FONTS.INFO_PRODUCT};
-        margin-bottom: 12px;
+        margin-bottom: 0.75rem;
     }
 
     > div {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap: 10px;
+        gap: 0.625rem;
 
         p {
             color: ${({ theme }) => theme.FONTS.INFO_PRODUCT};
             font-weight: 600;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 0.75rem;
+            line-height: 1rem;
 
             span {
                 color: ${({ theme }) => theme.FONTS.TEXT_COLOR};
@@ -75,19 +75,19 @@ export const Container = styled.div`
     }
 
     @media (max-width: 40rem) {
-        max-width: 160px;
-        padding: 12px;
-        border-radius: 8px;
+        max-width: 10rem;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
         text-align: inherit;
 
         img {
-            max-width: 136px;
-            height: 136px;
+            max-width: 8.5rem;
+            height: 8.5rem;
         }
 
         .sellingPrice { 
             div {
-                transform: translate(-108px, -220px);
+                transform: translate(-6.75rem, -13.75rem);
             }
         }
 

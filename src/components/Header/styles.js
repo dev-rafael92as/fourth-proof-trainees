@@ -5,8 +5,8 @@ export const Container = styled.header`
     
     .container-header {
         width: 100%;
-        max-width: 1376px;
-        height: 80px;
+        max-width: 86rem;
+        height: 5rem;
 
         margin: 0 auto;
         display: flex;
@@ -15,11 +15,11 @@ export const Container = styled.header`
 
         .wrapper-searchInput {
             width: 100%;
-            max-width: 948px;
+            max-width: 59.25rem;
         }
 
         .wrapper-accountButton {
-            max-width: 187px;
+            max-width: 11.6875rem;
             width: 100%;
         }
 
@@ -27,20 +27,20 @@ export const Container = styled.header`
             border: none;
             background-color: transparent;
             width: 100%;
-            max-width: 56px;
+            max-width: 3.5rem;
 
             .icon-cart {
                 background: red;
                 color: white;
                 width: 100%;
-                max-width: 20px;
-                border-radius: 100px;
-                transform: translate(30px, 10px);
+                max-width: 1.25rem;
+                border-radius: 6.25rem;
+                transform: translate(1.875rem, 0.625rem);
             }
 
             svg {
-                height: 24px;
-                width: 24px;
+                height: 1.5rem;
+                width: 1.5rem;
             }
         }
         
@@ -51,28 +51,28 @@ export const Container = styled.header`
 
     .container-header-mobile {
         display: none;
-        height: 56px;
+        height: 3.5rem;
 
         @media (max-width:40rem) {
             display: flex;
             align-items: center;
-            padding: 0 16px;
+            padding: 0 1rem;
         }
 
         .wrapper-logo {
-            margin-right: 80px;
+            margin-right: 5rem;
         }
 
         > svg {
-            width: 24px;
-            height: 24px;
-            margin-right: 20px;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 1.25rem;
         }
 
         .wrapper-searchInput {
             > svg {
-                width: 24px;
-                height: 24px;
+                width: 1.5rem;
+                height: 1.5rem;
             }
         }
 
@@ -87,17 +87,17 @@ export const Container = styled.header`
             align-items: center;
 
             > svg {
-                height: 32px;
-                width: 32px;
+                height: 2rem;
+                width: 2rem;
             }
             
             .icon-cart {
                 background: red;
                 color: white;
                 width: 100%;
-                max-width: 18px;
-                border-radius: 100px;
-                transform: translate(30px,-12px);
+                max-width: 1.125rem;
+                border-radius: 6.25rem;
+                transform: translate(1.875rem,-0.75rem);
             }
         }
     }

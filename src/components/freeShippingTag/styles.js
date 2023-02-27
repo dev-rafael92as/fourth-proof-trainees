@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75rem;
+    line-height: 1rem;
 
-    letter-spacing: -0.1px;
+    letter-spacing: -0.0063rem;
     position: absolute;
-    left: 26px;
-    right: 28px;
+    left: 1.625rem;
+    right: 1.75rem;
 
     background-color: ${({ theme }) => theme.FONTS.DARK_TERTIARY};
     width: 100%;
-    max-width: 75px;
-    padding: 2px 4px;
-    border-radius: 4px;
+    max-width: 4.6875rem;
+    padding: 0.125rem 0.25rem;
+    border-radius: 0.25rem;
 `

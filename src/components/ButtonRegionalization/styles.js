@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.button`
     background-color: transparent;
-    border: 1px solid ${({ theme }) => theme.FONTS.LIGHT_SURFACE_VARIANT};
-    border-radius: 8px;
+    border: 0.0625rem solid ${({ theme }) => theme.FONTS.LIGHT_SURFACE_VARIANT};
+    border-radius: 0.5rem;
 
     display: flex;
     align-items: center;
 
     width: 100%;
-    max-width: 216px;
-    height: 48px;
+    max-width: 13.5rem;
+    height: 3rem;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 
     :hover {
         background-color: ${({ theme }) => theme.FONTS.LIGHT_SURFACE_VARIANT};

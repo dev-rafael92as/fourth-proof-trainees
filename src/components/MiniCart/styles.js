@@ -7,39 +7,39 @@ export const Container = styled.div`
     z-index: 2;
 
     background: ${({ theme }) => theme.FONTS.WHITE_BACKGROUND};
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.3), 0rem 0.125rem 0.375rem 0.125rem rgba(0, 0, 0, 0.15);
 
-    height: 800px;
-    max-width: 400px;
+    height: 50rem;
+    max-width: 25rem;
 
 
     .header-miniCart {
-        height: 76px;
+        height: 4.75rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        min-width: 400px;
+        min-width: 25rem;
 
         font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
 
-        padding: 24px 24px 0 24px;
-        border-bottom: 1px solid ${({ theme }) => theme.FONTS.LIGHT_SURFACE_VARIANT};
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        border-bottom: 0.0625rem solid ${({ theme }) => theme.FONTS.LIGHT_SURFACE_VARIANT};
 
         button {
             background-color: transparent;
             border: none;
 
             svg {
-                width: 20px;
-                height: 20px;
+                width: 1.25rem;
+                height: 1.25rem;
             }
         }
     }
 
     .main-content-minicart {
-        padding: 24px;
+        padding: 1.5rem;
     }
 
     @media (max-width: 40rem) {

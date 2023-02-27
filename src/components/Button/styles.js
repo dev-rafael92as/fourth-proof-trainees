@@ -2,22 +2,22 @@ import styled from "styled-components";
 
 export const Container = styled.button`
     width: 100%;
-    max-width: 138px;
-    height: 48px;
+    max-width: 8.625rem;
+    height: 3rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
+    gap: 0.375rem;
 
     border: none;
     background: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
     color: ${({ theme }) => theme.FONTS.WHITE_BACKGROUND};
-    border-radius: 8px;
+    border-radius: 0.5rem;
 
     svg {
-        height: 20px;
-        width: 20px;
+        height: 1.25rem;
+        width: 1.25rem;
     }
 
     @media (max-width: 40rem) {

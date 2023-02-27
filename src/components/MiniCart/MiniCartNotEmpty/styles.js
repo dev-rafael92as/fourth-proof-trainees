@@ -3,19 +3,19 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 
     .wrapper-footer-minicart {
         position: fixed;
-        top: calc(800px - 144px);
+        top: calc(50rem - 9rem);
         width: 100%;
-        max-width: 400px;
-        transform: translateX(-24px);
+        max-width: 25rem;
+        transform: translateX(-1.5rem);
 
         @media (max-width: 40rem) {
             top: initial;
             bottom: 0;
-            transform: translateX(-24px);
+            transform: translateX(-1.5rem);
         }
     }
 `

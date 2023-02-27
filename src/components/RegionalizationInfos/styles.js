@@ -5,9 +5,9 @@ export const Container = styled.div`
     
     .container-regionalizationInfos {
         width: 100%;
-        max-width: 1376px;
+        max-width: 86rem;
         margin: 0 auto;
-        height: 100px;
+        height: 6.25rem;
         
         display: flex;
         justify-content: space-between;
@@ -18,30 +18,30 @@ export const Container = styled.div`
             .wrapper-firstInfos {
                 display: flex;
                 align-items: center;
-                margin-bottom: 8px;
+                margin-bottom: 0.5rem;
 
                 .store-name {
                     font-weight: 700;
-                    font-size: 16px;
-                    line-height: 32px;
-                    margin-right: 20px;
+                    font-size: 1rem;
+                    line-height: 2rem;
+                    margin-right: 1.25rem;
                 }
 
                 p:last-child {
                     display: flex;
                     align-items: center;
                     /* width: 100%; */
-                    max-width: 723px;
+                    max-width: 45.1875rem;
 
                     span {
-                        padding: 0 10px;
+                        padding: 0 0.625rem;
                     }
 
                     svg {
                         color: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
-                        height: 21px;
-                        width: 18px;
-                        /* transform: translateY(6px); */
+                        height: 1.3125rem;
+                        width: 1.125rem;
+                        /* transform: translateY(0.375rem); */
                     }
                 }
             }
@@ -51,7 +51,7 @@ export const Container = styled.div`
                 align-items: center;
                 
                 p:first-child {
-                    margin-right: 51px;
+                    margin-right: 3.1875rem;
                 }
 
                 p {
@@ -61,9 +61,9 @@ export const Container = styled.div`
 
                     svg {
                         color: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
-                        height: 21px;
-                        width: 18px;
-                        margin-right: 19px;
+                        height: 1.3125rem;
+                        width: 1.125rem;
+                        margin-right: 1.1875rem;
                     }
                 }
             }
@@ -78,7 +78,7 @@ export const Container = styled.div`
         @media (max-width: 40rem ) {
             display: flex;
             flex-direction: column;
-            padding: 0 16px;
+            padding: 0 1rem;
             background: ${({ theme }) => theme.FONTS.LIGHT_SURFACE_VARIANT};
         }
         
@@ -88,15 +88,15 @@ export const Container = styled.div`
             justify-content: space-between;
 
             > svg {
-                height: 24px;
-                width: 24px;
+                height: 1.5rem;
+                width: 1.5rem;
             }
             
             .store-name {
                 font-weight: 700;
-                font-size: 16px;
-                line-height: 20px;
-                margin: 20px 0;
+                font-size: 1rem;
+                line-height: 1.25rem;
+                margin: 1.25rem 0;
             }
         }
 
@@ -108,35 +108,35 @@ export const Container = styled.div`
         }
 
         .dropdown-open {
-            margin-bottom: 15px;
+            margin-bottom: 0.9375rem;
         }
 
         .wrapper-firstInfos {
             display: flex;
             align-items: center;
-            gap: 12px;
-            margin-bottom: 12px;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
 
             svg {
                 color: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
-                height: 40px;
-                width: 40px;
+                height: 2.5rem;
+                width: 2.5rem;
             }
         }
 
         .wrapper-lastInfos {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 0.75rem;
 
             p {
                 display: flex;
                 align-items: center;
-                gap: 12px;
+                gap: 0.75rem;
                 svg {
                     color: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
-                    height: 20px;
-                    width: 20px;
+                    height: 1.25rem;
+                    width: 1.25rem;
                 }
             }
         }

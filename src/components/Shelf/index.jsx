@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from './styles'
-// import productImg from '../../assets/product-img.png'
 import { FiCreditCard } from 'react-icons/fi'
 import { DiscountTag } from '../discountTag'
 import { FreeShippingTag } from '../freeShippingTag'

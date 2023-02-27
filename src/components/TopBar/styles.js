@@ -7,17 +7,17 @@ export const Container = styled.div`
     position: relative;
     background-color: ${({ theme }) => theme.FONTS.LIGHT_SURFACE_VARIANT};
 
-    height: 40px;
+    height: 2.5rem;
 
     div {
         display: flex;
         align-items: center;
-        gap: 18px;
+        gap: 1.125rem;
     }
 
     button {
         position: absolute;
-        right: 8px;
+        right: 0.5rem;
 
         background-color: transparent;
         border: none;

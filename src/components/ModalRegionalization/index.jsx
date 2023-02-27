@@ -24,7 +24,6 @@ export const ModalRegionalization = () => {
     if (loading) return <p>Carregando...</p>;
     if (error) return alert("Erro :/");
     setDataInfosStore(data)
-    // setModalIsOpen(false)
     setNoRegionalization(false)
     } else {
         const { loading, error, data } = useQuery(REGIONALIZATION, {

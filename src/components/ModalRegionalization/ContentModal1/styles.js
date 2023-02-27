@@ -3,33 +3,33 @@ import styled from "styled-components";
 export const Container = styled.div`
     .title-modal1 {
         font-weight: 500;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 1.5rem;
+        line-height: 2rem;
         width: 100%;
-        max-width: 250px;
+        max-width: 15.625rem;
 
         @media (max-width: 40rem) {
             font-weight: 500;
-            font-size: 24px;
-            line-height: 32px;
+            font-size: 1.5rem;
+            line-height: 2rem;
         }
     }
 
     .desktop-modal {
-        margin-top: 32px;
+        margin-top: 2rem;
         display: flex;
         justify-content: space-between;
 
         .first-colum {
-            max-width: 118px;
+            max-width: 7.375rem;
         }
 
         .second-colum {
-            max-width: 153px;
+            max-width: 9.5625rem;
         }
 
         .third-colum {
-            max-width: 160px;
+            max-width: 10rem;
         }
     
         div {
@@ -37,16 +37,16 @@ export const Container = styled.div`
             flex-direction: column;
             align-items: center;
             width: 100%;
-            gap: 10px;
-            height: 440px;
+            gap: 0.625rem;
+            height: 27.5rem;
 
             button {
                 border: none;
                 background: transparent;
 
                 font-weight: 500;
-                font-size: 16px;
-                line-height: 40px;
+                font-size: 1rem;
+                line-height: 2.5rem;
                 width: 100%;
                 text-align: start;
             }
@@ -55,8 +55,8 @@ export const Container = styled.div`
                 text-decoration: underline;
                 color: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
                 font-weight: 600;
-                font-size: 16px;
-                line-height: 40px;
+                font-size: 1rem;
+                line-height: 2.5rem;
             }
         }
 
@@ -77,8 +77,8 @@ export const Container = styled.div`
                 background: transparent;
 
                 font-weight: 500;
-                font-size: 16px;
-                line-height: 40px;
+                font-size: 1rem;
+                line-height: 2.5rem;
                 width: 100%;
                 text-align: start;
             }

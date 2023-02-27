@@ -13,25 +13,7 @@ export const ContentModal1 = () => {
         setSelectedState(e.target.id)
         setModalContent("modal2")
         setNoRegionalization(false)
-        // handleSelectState(e.target.id)
     }
-
-    // const handleSelectedState = () => {
-    //     const email = 'rafael.almeida@b8one.com'
-    //     const { loading, error, data } = useQuery(REGIONALIZATION, {
-    //         variables: {
-    //             input: {
-    //                 email: email,
-    //                 state: selectedState,
-    //             },
-    //         },
-    //     });
-        
-    //     if (loading) return <p>Carregando...</p>;
-    //     if (error) return alert("Erro :/");
-        
-    //     setDataInfosStore(data)
-    // }
 
   return (
     <Container>

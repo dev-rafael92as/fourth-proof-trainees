@@ -12,13 +12,13 @@ export const Container = styled.div`
         align-items: center;
 
         font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
 
         svg {
-            margin: 0 15px;
-            width: 24px;
-            height: 20px;
+            margin: 0 0.9375rem;
+            width: 1.5rem;
+            height: 1.25rem;
         }
     }
 `

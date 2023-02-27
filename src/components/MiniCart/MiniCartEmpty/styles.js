@@ -4,30 +4,30 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 262px;
-    gap: 16px;
+    margin-top: 16.375rem;
+    gap: 1rem;
 
     svg {
-        height: 40px;
-        width: 40px;
-        margin-bottom: 8px;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-bottom: 0.5rem;
         color: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
     }
 
     .minicart-first-text {
         font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
-        max-width: 226px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        max-width: 14.125rem;
         text-align: center;
     }
 
     .minicart-last-text {
         font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
         text-align: center;
-        max-width: 236px;
+        max-width: 14.75rem;
 
         color: ${({ theme }) => theme.FONTS.MINICART_TEXT};
     }

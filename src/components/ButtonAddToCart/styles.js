@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-    height: 48px;
+    height: 3rem;
     border: none;
     background: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
     color: ${({ theme }) => theme.FONTS.WHITE_BACKGROUND};
-    border-radius: 8px;
-    margin-top: 16px;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
     width: 100%;
 
     :hover {

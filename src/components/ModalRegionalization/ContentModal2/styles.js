@@ -3,98 +3,98 @@ import styled from "styled-components";
 export const Container = styled.div`
     .title-modal2 {
         font-weight: 500;
-        font-size: 24px;
-        line-height: 32px;
-        max-width: 342px;
-        margin-bottom: 52px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        max-width: 21.375rem;
+        margin-bottom: 3.25rem;
 
         @media (max-width: 40rem) {
             font-weight: 600;
-            font-size: 20px;
-            line-height: 28px;
-            margin-bottom: 48px;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            margin-bottom: 3rem;
         }
     }
 
     > div {
         .store-selected {
             font-weight: 700;
-            font-size: 20px;
-            line-height: 32px;
-            margin-bottom: 16px;
+            font-size: 1.25rem;
+            line-height: 2rem;
+            margin-bottom: 1rem;
         }
 
         div {
             display: flex;
             align-items: center;
-            gap: 21px;
-            margin-bottom: 16px;
+            gap: 1.3125rem;
+            margin-bottom: 1rem;
 
             svg {
                 color: ${({ theme }) => theme.FONTS.LIGHT_SECONDARY};
-                height: 20px;
-                width: 20px;
+                height: 1.25rem;
+                width: 1.25rem;
 
                 @media (max-width: 40rem) {
-                    width: 30px;
-                    height: 30px;
+                    width: 1.875rem;
+                    height: 1.875rem;
                 }
             }
 
             p {
                 font-weight: 500;
-                font-size: 16px;
-                line-height: 28px;
+                font-size: 1rem;
+                line-height: 1.75rem;
             }
         }
 
         .store-localization {
-            height: 112px;
+            height: 7rem;
 
             p {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-                height: 112px;
+                height: 7rem;
             }
         }
 
         .store-schedules {
-            height: 56px;
+            height: 3.5rem;
 
             p {
-                max-width: 169px;
-                height: 56px;
+                max-width: 10.5625rem;
+                height: 3.5rem;
             }
         }
 
         .store-contacts {
-            height: 56px;
+            height: 3.5rem;
 
             p {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-                height: 56px;
+                height: 3.5rem;
             }
         }
     
         @media (max-width: 40rem) {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 1.25rem;
         }
     }
 
 
     .wrapper-buttons {
-        margin-top: 50px;
+        margin-top: 3.125rem;
         display: flex;
-        gap: 24px;
+        gap: 1.5rem;
 
         @media (max-width: 40rem) {
             flex-direction: column-reverse;
-            gap: 8px;
+            gap: 0.5rem;
         }
     }
 `

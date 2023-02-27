@@ -7,21 +7,21 @@ export const Container = styled.div`
 
     color: ${({ theme }) => theme.FONTS.WHITE_BACKGROUND};
     background-color: ${({ theme }) => theme.FONTS.LIGHT_PRIMARY};
-    border-radius: 4px;
+    border-radius: 0.25rem;
 
     font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: -0.1px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: -0.0063rem;
 
     width: 100%;
-    max-width: 48px;
-    height: 20px;
-    padding: 4px;
+    max-width: 3rem;
+    height: 1.25rem;
+    padding: 0.25rem;
 
     svg {
-        height: 12px;
-        width: 12px;
+        height: 0.75rem;
+        width: 0.75rem;
     }
 
 `
