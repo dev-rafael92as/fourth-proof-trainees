@@ -8,7 +8,7 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 import { RegionalizationProvider } from './hooks/regionalization'
 
 const client = new ApolloClient({
-  uri: 'http://localhost:3333/graphql',
+  uri: 'https://trainees-fourth-proof-igode.ondigitalocean.app/graphql',
   cache: new InMemoryCache()
 });
 
