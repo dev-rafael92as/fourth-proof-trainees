@@ -8,8 +8,8 @@ import { useRegionalization } from '../../hooks/regionalization'
 import { RxHamburgerMenu } from 'react-icons/rx'
 
 export const Header = () => {
-    const { productsCart } = useRegionalization()
-
+    const { productsCart, setMiniCartIsOpen, miniCartIsOpen } = useRegionalization()
+    console.log(miniCartIsOpen)
   return (
     <Container>
         <div className='container-header'>
@@ -27,7 +27,7 @@ export const Header = () => {
                 <ButtonAccount />
             </div>
 
-            <button className='wrapper-minicart'>
+            <button className='wrapper-minicart' onClick={() => setMiniCartIsOpen(!miniCartIsOpen)}>
                 <p className='icon-cart'>{productsCart.length}</p>
                 <FiShoppingCart />
             </button>
@@ -49,7 +49,7 @@ export const Header = () => {
                 <ButtonAccount />
             </div>
 
-            <button className='wrapper-minicart'>
+            <button className='wrapper-minicart' onClick={() => setMiniCartIsOpen(!miniCartIsOpen)}>
                 <p className='icon-cart'>{productsCart.length}</p>
                 <FiShoppingCart />
             </button>

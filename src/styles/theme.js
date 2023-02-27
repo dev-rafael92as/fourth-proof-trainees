@@ -8,8 +8,9 @@ export default {
         LIGHT_SECONDARY: '#042CA6',
         BUTTON_DISABLED: 'rgba(0, 0, 0, 0.1)',
         WHITE_BACKGROUND: '#FFFFFF',
-        LIGHT_SURFACE_VARIANT: '#E6E7EB;',
-        PLACEHOLDER_COLOR: 'rgba(0, 0, 0, 0.5);',
-        LIGHT_OUTLINE: '#9CA0AE'
+        LIGHT_SURFACE_VARIANT: '#E6E7EB',
+        PLACEHOLDER_COLOR: 'rgba(0, 0, 0, 0.5)',
+        LIGHT_OUTLINE: '#9CA0AE',
+        MINICART_TEXT: "#555555"
     }
 }
